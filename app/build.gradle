@@ -67,4 +67,6 @@ dependencies {
 
     //Viewmodel and LiveData Related to View Lifecycle...
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    //handling state when orientation changes use viewmodel savedstate
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-beta01"
 }
